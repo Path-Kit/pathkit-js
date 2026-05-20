@@ -1,0 +1,44 @@
+{
+  "name": "@path-kit/js",
+  "version": "0.1.1",
+  "description": "PathKit JS SDK \u2014 deferred deep links and mobile attribution. Works in browsers and Node.",
+  "license": "MIT",
+  "author": "PathKit <support@pathkit.dev>",
+  "homepage": "https://pathkit.dev",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/path-kit/pathkit-js.git"
+  },
+  "main": "src/index.js",
+  "module": "src/index.js",
+  "types": "src/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./src/index.js",
+      "require": "./src/index.js",
+      "types": "./src/index.d.ts"
+    }
+  },
+  "files": [
+    "src/",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node test/smoke.js"
+  },
+  "keywords": [
+    "pathkit",
+    "deep-link",
+    "deferred-deep-link",
+    "attribution",
+    "mobile",
+    "branch",
+    "universal-links",
+    "app-links"
+  ],
+  "engines": {
+    "node": ">=16"
+  },
+  "sideEffects": false
+}
